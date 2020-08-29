@@ -1,0 +1,60 @@
+// variables
+:root {
+  --primary: #ffffff;
+  --secondary: #1f1300;
+  --light-blue: #9fe2ff;
+  --grey: #b9b9b9;
+  --light-grey: #eaeaea;
+}
+// reset
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+// base styles
+body {
+  background: var(--secondary);
+  overflow-x: hidden;
+  font-family: 'Fira Code Regular';
+  color: white;
+}
+.button {
+  background: none;
+}
+h2 {
+  color: var(--grey);
+}
+h3 {
+  color: var(--light-grey);
+}
+
+// fonts
+@font-face {
+  font-family: 'Fira Code Regular';
+  src: url('../assets/fonts/Fira_Code/FiraCode-Regular.ttf');
+}
+@font-face {
+  font-family: 'Fira Sans Regular';
+  src: url('../assets/fonts/Fira_Sans/FiraSans-Regular.ttf');
+}
+
+// mobile
+
+// small tablet
+@media screen and (min-width: 620px) {
+}
+// large tablets and laptops
+@media screen and (min-width: 960px) {
+}
+// desktop
+@media screen and (min-width: 1200px) {
+}
