@@ -32,10 +32,12 @@ type SectionProps = {
 
 function Section(props: SectionProps) {
   return (
-    <div className='heading'>
-      <SideArrow />
-      <h3>{props.title}</h3>
-      {props.content}
+    <div>
+      <div className='heading'>
+        <SideArrow className='arrow' />
+        <h3>{props.title}</h3>
+      </div>
+      <div className='content'>{props.content}</div>
     </div>
   );
 }
